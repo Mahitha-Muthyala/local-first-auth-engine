@@ -51,32 +51,6 @@ This project simulates how **real-world dashboards** handle authentication and a
 
 ---
 
-## Folder Structure
-
-
-src/
-│── components/
-│   ├── ResourceList.jsx
-│   ├── ResourceItem.jsx
-│   └── ProtectedRoute.jsx
-│
-│── context/
-│   └── AuthContext.jsx
-│
-│── data/
-│   └── resources.js
-│
-│── pages/
-│   ├── Login.jsx
-│   ├── Dashboard.jsx
-│   └── Unauthorized.jsx
-│
-│── hooks/
-│   └── useAuthorizedResources.js
-│
-│── App.jsx
-│── main.jsx
----
 ### Role & Permission Logic
 Each resource defines a minimum required role.
 Role hierarchy: Viewer < Editor < Admin
